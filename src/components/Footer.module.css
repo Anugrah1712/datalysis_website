@@ -1,0 +1,28 @@
+.footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 1rem 2rem;
+    text-align: center;
+    height:60px;
+    margin-top: 0vh;
+  }
+  
+  .links {
+    margin: 1rem 0;
+  }
+  
+  .link {
+    margin: 0 0.75rem;
+    color: #ccc;
+    text-decoration: none;
+  }
+  
+  .link:hover {
+    color: rgb(255, 255, 255);
+  }
+  
+  .copy {
+    font-size: 0.875rem;
+    color: #ffffff;
+  }
+  

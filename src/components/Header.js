@@ -1,0 +1,18 @@
+/* ✅ FILE: src/components/Header.js */
+import React from 'react';
+import { Link } from 'react-router-dom';
+import styles from './Header.module.css';
+
+const Header = () => (
+  <header className={styles.header}>
+    <div className={styles.logo}>Datalysis</div>
+    <nav className={styles.nav}>
+      <Link to="/" className={styles.navLink}>Home</Link>
+      <Link to="/about" className={styles.navLink}>About</Link>
+      <Link to="/services" className={styles.navLink}>Services</Link>
+      <Link to="/contact" className={styles.navLink}>Contact</Link>
+    </nav>
+  </header>
+);
+
+export default Header;

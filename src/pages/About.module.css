@@ -1,0 +1,116 @@
+.aboutPage {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  padding: 6rem 2rem;
+  font-family: 'Segoe UI', sans-serif;
+  color: #ffffff;
+  min-height: 100vh;
+  animation: fadeIn 1s ease-in-out;
+  overflow-x: hidden;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; transform: scale(0.98); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 5rem;
+  position: relative;
+}
+
+.heroTitle {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  text-shadow: 0 0 15px #00f5ff, 0 0 30px #00f5ff;
+  animation: pulse 2s infinite alternate;
+}
+
+.heroSubtitle {
+  font-size: 1.3rem;
+  color: #ccc;
+  max-width: 700px;
+  margin: 0 auto;
+  margin-top: 1.5rem;
+  line-height: 1.7;
+  font-style: italic;
+}
+
+@keyframes pulse {
+  from { text-shadow: 0 0 15px #00f5ff; }
+  to   { text-shadow: 0 0 30px #00f5ff; }
+}
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+  padding: 0 1rem;
+}
+
+.card {
+  background: linear-gradient(135deg, rgba(0,0,0,0.3), rgba(255,255,255,0.05));
+  border: 2px solid #00f5ff44;
+  border-radius: 24px;
+  padding: 2rem;
+  width: 320px;
+  box-shadow: 0 8px 30px rgba(0, 255, 255, 0.15);
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: conic-gradient(from 0deg, #00f5ff44, transparent 30%);
+  animation: rotate 6s linear infinite;
+  z-index: 0;
+  filter: blur(20px);
+}
+
+@keyframes rotate {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.card h2 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
+  z-index: 1;
+  position: relative;
+}
+
+.card p,
+.card ul {
+  color: #f0f0f0;
+  z-index: 1;
+  position: relative;
+  line-height: 1.7;
+}
+
+.card ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.card ul li {
+  margin-bottom: 0.6rem;
+  position: relative;
+  padding-left: 0;
+}
+
+/* .card ul li::before {
+  content: "⚡";
+  position: absolute;
+  left: 0;
+  color: #00ffea;
+  font-size: 1.2rem;
+} */
