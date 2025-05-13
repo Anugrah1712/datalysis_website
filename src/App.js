@@ -9,8 +9,8 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Services from './pages/Services';
 import Contact from './pages/Contact';
-// import Chatbot from "./components/Chatbot";
-// import DeveloperConsole from "./components/DeveloperConsole"; 
+import { Chatbot } from 'rag-chatbot-ui';
+
 
 
 
@@ -22,14 +22,8 @@ const App = () => (
       <Route path="/about" element={<About />} />
       <Route path="/services" element={<Services />} />
       <Route path="/contact" element={<Contact />} />
-      {/* <Chatbot /> */}
-
-        {/* Define Routes
-        <Routes>
-          <Route path="/developer-console" element={<DeveloperConsole />} />
-        </Routes> */}
-
     </Routes>
+    <Chatbot />
     <Footer />
   </Router>
 );

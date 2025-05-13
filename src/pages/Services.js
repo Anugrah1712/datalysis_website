@@ -2,6 +2,7 @@
 import React from 'react';
 import styles from './Services.module.css';
 
+
 const Services = () => (
   <div className={styles.servicesContainer}>
     <section className={styles.section}>
@@ -47,6 +48,7 @@ const Services = () => (
           <li>End-to-end Analytics Solutions</li>
         </ul>
       </p>
+
     </section>
   </div>
 );

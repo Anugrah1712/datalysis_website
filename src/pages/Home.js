@@ -2,6 +2,8 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import styles from './Home.module.css';
 
+
+
 const Home = () => {
   const navigate = useNavigate();
 
@@ -27,7 +29,7 @@ const Home = () => {
         Based in Pune, Maharashtra, we combine education, training, and consultancy to help shape a data-driven future.
       </p>
 
-
+    
     </div>
   );
 };
