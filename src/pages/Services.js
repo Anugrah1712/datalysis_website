@@ -20,6 +20,18 @@ const Services = () => (
       <p className={styles.description}>
         Designed for students, working professionals, and career changers.
       </p>
+
+      {/* PDF Link */}
+      <p className={styles.description}>
+      <a 
+        href="/Analytics_Data_ScienceEducation.pdf" 
+        target="_blank" 
+        rel="noopener noreferrer" 
+        style={{ color: '#00f5ff', textDecoration: 'underline' }}
+      >
+        📄 All about our Analytics & Data Science Education program
+      </a>
+    </p>
     </section>
 
     <section className={styles.section}>
@@ -34,6 +46,16 @@ const Services = () => (
         </ul>
         Designed to upskill employees and foster a data-driven culture.
       </p>
+      <p className={styles.description}>
+      <a 
+        href="/CorporateTraining.pdf" 
+        target="_blank" 
+        rel="noopener noreferrer" 
+        style={{ color: '#00f5ff', textDecoration: 'underline' }}
+      >
+        📄 All about our Corporate Training program
+      </a>
+    </p>
     </section>
 
     <section className={styles.section}>
@@ -48,6 +70,16 @@ const Services = () => (
           <li>End-to-end Analytics Solutions</li>
         </ul>
       </p>
+      <p className={styles.description}>
+      <a 
+        href="/ConsultancyServices.pdf" 
+        target="_blank" 
+        rel="noopener noreferrer" 
+        style={{ color: '#00f5ff', textDecoration: 'underline' }}
+      >
+        📄 All about our Consultancy Services program
+      </a>
+    </p>
 
     </section>
   </div>
