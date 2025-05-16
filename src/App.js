@@ -10,7 +10,7 @@ import About from './pages/About';
 import Services from './pages/Services';
 import Contact from './pages/Contact';
 import { Chatbot } from 'rag-chatbot-ui-datalysis';
-
+import Search from './pages/Search';
 
 
 
@@ -22,6 +22,7 @@ const App = () => (
       <Route path="/about" element={<About />} />
       <Route path="/services" element={<Services />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/search" element={<Search />} />
     </Routes>
     <Chatbot />
     <Footer />
