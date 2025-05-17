@@ -21,12 +21,12 @@ const Search = () => {
     },
     {
       page: 'Services',
-      content: 'We offer corporate training, data science courses, machine learning programs, and AI consulting.',
+      content: 'We offer corporate training, data science courses, machine learning programs,1:1 Mentorship, and AI consulting.',
       link: '/services',
     },
     {
       page: 'Contact',
-      content: 'Reach out to Datalysis for collaborations, training, or inquiries.',
+      content: 'Reach out to Datalysis for collaborations,training, or inquiries.',
       link: '/contact',
     },
   ];
