@@ -32,3 +32,8 @@
     background-color: #005fa3;
   }
   
+  @media (max-width: 480px) {
+  .input, .textarea, .button {
+    font-size: 0.9rem;
+  }
+}

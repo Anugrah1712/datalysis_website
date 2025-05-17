@@ -26,3 +26,19 @@
     color: #ffffff;
   }
   
+  .footer {
+  padding: 1rem;
+  height: auto; /* Change from 60px */
+}
+
+@media (max-width: 768px) {
+  .links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .link {
+    margin: 0;
+  }
+}
