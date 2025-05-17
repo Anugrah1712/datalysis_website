@@ -1,38 +1,39 @@
 .footer {
-    background-color: #000000;
-    color: #ffffff;
-    padding: 1rem 2rem;
-    text-align: center;
-    height:60px;
-    margin-top: 0vh;
-  }
-  
-  .links {
-    margin: 1rem 0;
-  }
-  
-  .link {
-    margin: 0 0.75rem;
-    color: #ccc;
-    text-decoration: none;
-  }
-  
-  .link:hover {
-    color: rgb(255, 255, 255);
-  }
-  
-  .copy {
-    font-size: 0.875rem;
-    color: #ffffff;
-  }
-  
-  .footer {
-  padding: 1rem;
-  height: auto; /* Change from 60px */
+  background-color: #000000;
+  color: #ffffff;
+  padding: 1rem 2rem;
+  text-align: center;
+  height: auto; /* Allows dynamic height based on content */
+  margin-top: 0vh;
 }
 
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  margin: 1rem 0;
+  flex-wrap: wrap; /* Allows wrapping on very small screens if needed */
+}
+
+.link {
+  color: #ccc;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.link:hover {
+  color: #ffffff;
+}
+
+.copy {
+  font-size: 0.875rem;
+  color: #ffffff;
+}
+
+/* ✅ Remove or comment out this mobile-stacking logic */
 @media (max-width: 768px) {
-  .links {
+  /* .links {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
@@ -40,5 +41,5 @@
 
   .link {
     margin: 0;
-  }
+  } */
 }
