@@ -11,7 +11,7 @@ const Contact = () => (
       <p className={styles.detail}>📍 Pune, Maharashtra, India</p>
       <p className={styles.detail}>📧 datalysis.india@gmail.com</p>
       <p className={styles.detail}>📞 +91 - 7984885953</p>
-      <p className={styles.detail}>📞 +91 - 9427947331</p>
+
       
       <div className={styles.mapSection}>
         <GoogleMap />
