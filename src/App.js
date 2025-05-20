@@ -9,7 +9,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Services from './pages/Services';
 import Contact from './pages/Contact';
-import { Chatbot } from 'rag-chatbot-ui-datalysis';
+import { Chatbot } from 'rag-chatbot-ui-final';
 import Search from './pages/Search';
 
 
